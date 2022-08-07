@@ -1,7 +1,7 @@
 if __name__ == "__main__":
     from xconf import Config
 
-    c = Config("test.ini")
+    c = Config("test.ini", "xten_")
 
     print(c)
     assert c.get("name") == "xtendev"
